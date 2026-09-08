@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+secrets/
+*.seed
+*.key
+*.pem
+root-identity.txt
+root-identity.txt.age
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local data
+data/
+logs/
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
