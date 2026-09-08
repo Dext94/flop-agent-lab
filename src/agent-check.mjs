@@ -52,10 +52,7 @@ const offers = await tclk.tclk_read_room({
 
 console.log("");
 console.log("TCLK offer board");
-console.log(`Records:   ${offers.count}`);
+console.log(`Frames:    ${offers.frames.length}`);
 
-if ("malformed" in offers) {
-  console.log(`Malformed: ${offers.malformed.length}`);
-}
-
+console.log(`Skipped:   ${offers.skipped}`);
 console.log(`Last seq:  ${offers.lastSeq ?? "none"}`);
