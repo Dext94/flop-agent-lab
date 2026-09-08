@@ -1,0 +1,18 @@
+{
+  "name": "flop-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial FLOP Labs ecosystem research and persistent TCLK agent tooling.",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "agent:check": "node src/agent-check.mjs"
+  },
+  "dependencies": {
+    "@flop-labs/tclk": "0.1.0",
+    "@flop-labs/tclk-mcp": "0.1.0"
+  }
+}
