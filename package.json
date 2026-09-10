@@ -10,8 +10,8 @@
   "packageManager": "pnpm@11.25.0",
   "scripts": {
     "agent:check": "node src/agent-check.mjs",
-    "scan:offers": "node src/offer-scan.mjs",
-    "scan:strict": "node src/strict-offer-scan.mjs"
+    "scan:strict": "node src/strict-offer-scan.mjs",
+    "worker:live": "node src/live-worker.mjs"
   },
   "dependencies": {
     "@flop-labs/tclk": "0.1.0",
